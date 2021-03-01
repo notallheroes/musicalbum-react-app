@@ -1,0 +1,24 @@
+.button {
+    position: absolute;
+    top: 800px;
+    font-family: Mukta;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    background-color: #183a5e;
+    border: 0px;
+    height: 50px;
+    cursor: pointer;
+}
+.description {
+    position: absolute;
+    top: 800px;
+    font-family: Mukta;
+    font-size: 15px;
+    color: grey;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}

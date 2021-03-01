@@ -1,0 +1,47 @@
+
+
+.created {
+    font-family: Mukta;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 900px;
+}
+.peksfeks {
+    font-family: Mukta;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.powered {
+    font-family: Mukta;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 950px;
+}
+.lastfm::before {
+    content: url('./../common/footer_logo.png');
+    margin-right: 10px;
+}
+.lastfm {
+    font-family: Mukta;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    font-family: Mukta;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1000px;
+    margin-bottom: 125px;
+}

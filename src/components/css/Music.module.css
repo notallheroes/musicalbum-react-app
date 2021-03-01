@@ -1,0 +1,25 @@
+.music {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    margin-top: -1px;
+    cursor: pointer;
+    font-family: 'Mukta', sans-serif;
+    background-color: white;
+    z-index: 10;
+    
+}
+.musicWrapper {
+    margin-top: 1px;
+    width: 530px;
+}
+.music:hover {
+    background-color: #edf2f7;
+}
+.description {
+    text-align: left;
+    margin-left: 20px;
+}
+.name {
+    font-weight: 700;
+}
