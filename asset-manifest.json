@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/musicalbum-react-app/static/css/main.162fc293.chunk.css",
-    "main.js": "/musicalbum-react-app/static/js/main.48cf010a.chunk.js",
-    "main.js.map": "/musicalbum-react-app/static/js/main.48cf010a.chunk.js.map",
+    "main.css": "/musicalbum-react-app/static/css/main.3ef377f2.chunk.css",
+    "main.js": "/musicalbum-react-app/static/js/main.395a69a5.chunk.js",
+    "main.js.map": "/musicalbum-react-app/static/js/main.395a69a5.chunk.js.map",
     "runtime-main.js": "/musicalbum-react-app/static/js/runtime-main.687c0ef6.js",
     "runtime-main.js.map": "/musicalbum-react-app/static/js/runtime-main.687c0ef6.js.map",
     "static/js/2.136b8f02.chunk.js": "/musicalbum-react-app/static/js/2.136b8f02.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.86372794.chunk.js": "/musicalbum-react-app/static/js/3.86372794.chunk.js",
     "static/js/3.86372794.chunk.js.map": "/musicalbum-react-app/static/js/3.86372794.chunk.js.map",
     "index.html": "/musicalbum-react-app/index.html",
-    "static/css/main.162fc293.chunk.css.map": "/musicalbum-react-app/static/css/main.162fc293.chunk.css.map",
+    "static/css/main.3ef377f2.chunk.css.map": "/musicalbum-react-app/static/css/main.3ef377f2.chunk.css.map",
     "static/js/2.136b8f02.chunk.js.LICENSE.txt": "/musicalbum-react-app/static/js/2.136b8f02.chunk.js.LICENSE.txt",
     "static/media/index.css": "/musicalbum-react-app/static/media/itc.eccdf5a0.woff",
     "static/media/default.70798349.png": "/musicalbum-react-app/static/media/default.70798349.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.687c0ef6.js",
     "static/js/2.136b8f02.chunk.js",
-    "static/css/main.162fc293.chunk.css",
-    "static/js/main.48cf010a.chunk.js"
+    "static/css/main.3ef377f2.chunk.css",
+    "static/js/main.395a69a5.chunk.js"
   ]
 }
