@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/musicalbum-react-app/static/css/main.55e84308.chunk.css",
-    "main.js": "/musicalbum-react-app/static/js/main.44059299.chunk.js",
-    "main.js.map": "/musicalbum-react-app/static/js/main.44059299.chunk.js.map",
+    "main.css": "/musicalbum-react-app/static/css/main.dd0cd41b.chunk.css",
+    "main.js": "/musicalbum-react-app/static/js/main.e050a872.chunk.js",
+    "main.js.map": "/musicalbum-react-app/static/js/main.e050a872.chunk.js.map",
     "runtime-main.js": "/musicalbum-react-app/static/js/runtime-main.687c0ef6.js",
     "runtime-main.js.map": "/musicalbum-react-app/static/js/runtime-main.687c0ef6.js.map",
-    "static/js/2.e11d8f56.chunk.js": "/musicalbum-react-app/static/js/2.e11d8f56.chunk.js",
-    "static/js/2.e11d8f56.chunk.js.map": "/musicalbum-react-app/static/js/2.e11d8f56.chunk.js.map",
+    "static/js/2.89c14346.chunk.js": "/musicalbum-react-app/static/js/2.89c14346.chunk.js",
+    "static/js/2.89c14346.chunk.js.map": "/musicalbum-react-app/static/js/2.89c14346.chunk.js.map",
     "static/js/3.86372794.chunk.js": "/musicalbum-react-app/static/js/3.86372794.chunk.js",
     "static/js/3.86372794.chunk.js.map": "/musicalbum-react-app/static/js/3.86372794.chunk.js.map",
     "index.html": "/musicalbum-react-app/index.html",
-    "static/css/main.55e84308.chunk.css.map": "/musicalbum-react-app/static/css/main.55e84308.chunk.css.map",
-    "static/js/2.e11d8f56.chunk.js.LICENSE.txt": "/musicalbum-react-app/static/js/2.e11d8f56.chunk.js.LICENSE.txt",
+    "static/css/main.dd0cd41b.chunk.css.map": "/musicalbum-react-app/static/css/main.dd0cd41b.chunk.css.map",
+    "static/js/2.89c14346.chunk.js.LICENSE.txt": "/musicalbum-react-app/static/js/2.89c14346.chunk.js.LICENSE.txt",
     "static/media/index.css": "/musicalbum-react-app/static/media/itc.eccdf5a0.woff",
     "static/media/default.70798349.png": "/musicalbum-react-app/static/media/default.70798349.png",
     "static/media/Footer.module.css": "/musicalbum-react-app/static/media/gitlogo.04bd87b3.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.687c0ef6.js",
-    "static/js/2.e11d8f56.chunk.js",
-    "static/css/main.55e84308.chunk.css",
-    "static/js/main.44059299.chunk.js"
+    "static/js/2.89c14346.chunk.js",
+    "static/css/main.dd0cd41b.chunk.css",
+    "static/js/main.e050a872.chunk.js"
   ]
 }
