@@ -1,3 +1,4 @@
+
 .button {
     position: absolute;
     top: 800px;
@@ -5,20 +6,83 @@
     font-size: 20px;
     font-weight: 700;
     color: white;
-    width: 100%;
+    width: 530px;
     background-color: #183a5e;
     border: 0px;
     height: 50px;
     cursor: pointer;
 }
-.description {
+.button:hover {
+    background-color: #0e2b4b;
+    transition: .3s ease-in-out;
+}
+.preloaderButton {
+    width: 530px;
+    height: 50px;
+    background-color: #183a5e;
     position: absolute;
     top: 800px;
+    text-align: center;
+    
+}
+.preloaderButton img {
+    margin-top: 15px;
+    width: 100px;
+    height: 20px;
+}
+.description {
+    position: absolute;
+    top: 820px;
     font-family: Mukta;
-    font-size: 15px;
+    font-size: 16px;
     color: grey;
     width: 50%;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
+}
+@media (max-width: 540px) {
+    .button{
+        top: 850px;
+       height: 80px; 
+       font-size: 30px;
+       font-weight: 600;
+       text-decoration: underline;
+    }
+    .preloaderButton {
+        top: 850px;
+        height: 80px;
+    }
+    .preloaderButton img {
+        margin-top: 25px;
+        width: 100px;
+        height: 30px;
+    }
+    .description {
+        top: 850px;
+        font-size: 25px;
+        width: 90%;
+    }
+}
+@media (max-width: 320px) {
+    .button{
+        top: 860px;
+       height: 90px; 
+       font-size: 35px;
+    }
+    .preloaderButton {
+        top: 860px;
+        height: 90px;
+    }
+    .preloaderButton img {
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+    }
+    .description {
+        top: 860px;
+        font-size: 25px;
+        width: 70%;
+    }
+    
 }

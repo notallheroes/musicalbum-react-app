@@ -1,13 +1,9 @@
 
-
 .created {
-    font-family: Mukta;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 900px;
+    margin-bottom: 20px;  
 }
 .peksfeks {
+    display: inline-block;
     font-family: Mukta;
     font-weight: 400;
     color: black;
@@ -16,32 +12,177 @@
     margin-left: 10px;
 }
 .powered {
-    font-family: Mukta;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 950px;
+      margin-bottom: 30px;
 }
-.lastfm::before {
-    content: url('./../common/footer_logo.png');
-    margin-right: 10px;
-}
-.lastfm {
-    font-family: Mukta;
-    font-weight: 400;
+.git {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-weight: 600;
     color: black;
     letter-spacing: 1px;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 50px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.git::before {
+    content:  '';
+    background-image: url('./../common/gitlogo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -40px;
+    top: -2px;
+}
+.lastfm {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 50px;
     font-size: 16px;
 }
-.copyright {
-    font-size: 15px;
-    text-align: center;
-    font-family: Mukta;
+.lastfm::before {
+    content:'';
+    background-image: url('./../common/footer_logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 1000px;
-    margin-bottom: 125px;
+    left: -35px;
+    top: 6px;
+}
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(73, 73, 73);
+    letter-spacing: 0px;
+}
+.footer {
+    font-family: 'Mukta';
+    text-align: center;
+    margin-top: 800px;
+    margin-bottom: 50px;
+}
+@media (max-width: 540px) {
+    .git {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        font-weight: 600;
+        color: black;
+        margin-left: 55px;
+        font-size: 25px;
+        margin-right: 0px;
+        }
+        .git::before {
+        content: "";
+        background-image: url('./../common/gitlogo.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: -50px;
+        top: 0px;
+        }
+        .lastfm {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        font-weight: 600;
+        color: black;
+        margin-left: 55px;
+        font-size: 25px;
+        font-weight: 600;
+        }
+        .lastfm::before {
+        content: "";
+        background-image: url('./../common/footer_logo.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 35px;
+        position: absolute;
+        left: -48px;
+        top: 10px;
+        }
+        .created,.powered {
+            font-size: 25px;
+        }
+        .copyright {
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        .footer {
+            margin-top: 910px;
+        }
+}
+@media (max-width: 320px) {
+    .created {
+        font-size: 20px;
+    }
+    .powered {
+        font-size: 20px;
+    }
+    .git {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 55px;
+    font-size: 20px;
+    margin-right: 0px;
+    
+    }
+    .git::before {
+    content: "";
+    background-image: url('./../common/gitlogo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+    position: absolute;
+    left: -43px;
+    top: 0px;
+    }
+    .lastfm {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    }
+    .lastfm::before {
+        content: "";
+    background-image: url('./../common/footer_logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height:30px;
+    position: absolute;
+    left: -45px;
+    top: 7px;
+    }
+    .copyright {
+        font-size: 15px;
+    }
+    .footer {
+        margin-top: 950px;
+    }
 }

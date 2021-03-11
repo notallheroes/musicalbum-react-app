@@ -5,7 +5,7 @@ import HEADER from "./common/header.png"
 
 const Header = (props) => {
     return (
-        <header>
+        <header className={style.header}>
             <img className={style.headerPicture} src={HEADER} />
         </header>
     )
